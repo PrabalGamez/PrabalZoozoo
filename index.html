@@ -1,0 +1,46 @@
+<html><head>
+<title>Prabal and Zoozoo</title>
+</head><body style="text-align: center;">
+<style>
+.line {
+        text-align: center;
+        background-color: black;
+        width: 100px;
+        height: 5px;
+        margin-left: 900px;
+ }
+ #MaZ {
+     width: 300px;
+     padding-top: 30px;
+ }
+ .Sections {
+     width: 100%;
+     height: 100%;
+     z-index: 1px;
+ }
+ #Home {
+ background: linear-gradient(rgb(255, 255, 255) 50%, rgb(225, 225, 0) 100%);
+ }
+ ul {
+     background-color: gold;
+     z-index: 2px;
+     position: fixed;
+     margin-bottom: 1000px;
+ }
+</style><script>
+var textz= ["Prabal", "Zoozoo"];
+function text(){
+document.getElementById("Texts").innerHTML=textz;
+}
+</script>
+<ul>
+<li><a href="#Home">Home</a></li>
+</ul>
+<section id="Home" class="Sections">
+<h1>Prabal and ZooZoo / Home</h1><div class="line"></div>
+<img src="Me and ZooZoo.jpeg" id="MaZ">
+<h3>We are best freinds. We live together, have tons of fun and a lot more!</h3>
+</section><div class="line"></div><section id="" class="Sections">
+<h1>Prabal and Zoozoo / Know more</h1>
+<p id="Texts" onclick="text()">Zoozoo</p>
+</section></body></html>
